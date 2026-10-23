@@ -1,0 +1,40 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dataset and medical images
+data/
+*.dcm
+*.dicom
+
+# Model weights and generated artifacts
+artifacts/*.weights.h5
+artifacts/*.h5
+artifacts/*.keras
+artifacts/*.pt
+artifacts/*.pth
+artifacts/*.onnx
+
+# Generated training outputs
+logs/
+runs/
+*.log
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
